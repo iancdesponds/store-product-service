@@ -7,7 +7,7 @@ pipeline {
     }
     
     environment {
-        SERVICE = 'account'
+        SERVICE = 'product'
         NAME = "iancdesponds/${env.SERVICE}"
         REGISTRY_CREDENTIALS = 'dockerhub-credentials'
     }
